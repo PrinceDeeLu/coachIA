@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Repforge",
+    "slug": "repforge",
+    "version": "1.0.0",
+    "scheme": "repforge",
+    "platforms": [ "ios", "android", "web"
+    ],
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-asset"
+    ]
+  }
+}
